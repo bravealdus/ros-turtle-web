@@ -16,12 +16,10 @@
 </head>
 
 <body>
-
     <div ng-controller="WebGLController">
         <canvas id="canvas" width="700" height="900"></canvas>
+        <button ng-click="moveIt()">MoveIt</button>
     </div>
-
-    <button onclick="moveIt()">MoveIt</button>
 </body>
 
 <script id="2d-vertex-shader" type="x-shader/x-vertex">
@@ -46,14 +44,5 @@
      gl_FragColor = u_color;
   }
 </script>
-
-<script>
-
-  // Connecting to ROS
-  // -----------------
-
-  </script>
-<!-- vertex shader -->
-
 
 </html>

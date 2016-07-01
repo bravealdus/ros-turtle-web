@@ -108,7 +108,7 @@ app.controller('WebGLController', function PhoneListController($scope) {
       updatePosition(1, res.y * 50);
   })
 
-  function moveIt() {
+  $scope.moveIt = function() {
       goal.send();
   }
 
