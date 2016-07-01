@@ -1,0 +1,21 @@
+{
+  "name": "ros-web-client",
+  "version": "1.0.0",
+  "description": "Front end follower for the ROS turtle",
+  "scripts": {
+    "serve": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bravealdus/ros-turtle-web.git"
+  },
+  "author": "Ivan Roth <brave.aldus@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bravealdus/ros-turtle-web/issues"
+  },
+  "homepage": "https://github.com/bravealdus/ros-turtle-web#readme",
+  "dependencies": {
+    "http-server": "^0.9.0"
+  }
+}

@@ -1,3 +1,5 @@
 ### ROS turtle web follower
 
--  drop the `public/index.html` in the browser
+- clone this repo
+- `npm install`
+- `npm run serve`
